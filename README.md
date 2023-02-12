@@ -75,3 +75,14 @@ git rm --cached sample2.txt
 ```
 git reset sample2.txt
 ```
+
+## git commit
+
+```
+touch commit.txt
+echo '初めてのコミット' > commit.txt
+git status
+git add commit.txt
+git status
+git commit -m '初めてのコミット'
+```
