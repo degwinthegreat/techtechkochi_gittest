@@ -90,6 +90,21 @@ git commit -m '初めてのコミット'
 ## git log
 
 ### コミットを振り返る
+
 ```
 git log
+```
+
+## git show
+
+### コミットの中身を確認する
+
+```
+git show
+```
+
+### 特定のコミットの中身を確認する
+
+```
+git show <commit-hash>
 ```
