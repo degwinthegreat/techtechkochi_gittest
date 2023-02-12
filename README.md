@@ -197,4 +197,17 @@ git add -A
 git commit -m 'マージしてほしいコミット'
 git switch main
 git merge branch
+git log
+```
+
+### 同じ行を変更していた場合
+
+```
+git switch -c conflict
+vi merge.txt
+git add -A
+git commit -m 'コンフリクトするコミット'
+git switch main
+git merge conflict
+git status
 ```
