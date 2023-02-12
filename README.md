@@ -136,3 +136,17 @@ git log
 git remote add origin https://github.com/<username>/<repository_name>.git
 git remote -v
 ```
+
+## git branch
+
+### 今いるブランチ名を変更する
+
+```
+git branch -M main
+```
+
+### ローカルリポジトリのブランチ一覧を表示
+
+```
+git branch
+```
