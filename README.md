@@ -150,3 +150,12 @@ git branch -M main
 ```
 git branch
 ```
+
+## git push
+
+### ローカルリポジトリで用意した修正をリモートリポジトリに追加する
+
+```
+git log
+git push origin main
+```
