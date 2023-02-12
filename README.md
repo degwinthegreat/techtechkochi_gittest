@@ -159,3 +159,28 @@ git branch
 git log
 git push origin main
 ```
+
+## git switch
+
+### ブランチ作成と移動をする
+
+```
+git switch -c first_branch
+```
+
+### 下記でもブランチ作成可能
+
+```
+git branch first_branch
+git switch first_branch
+```
+
+```
+git checkout -b first_branch
+```
+
+### すでにあるブランチに移動する場合
+
+```
+git switch main
+```
