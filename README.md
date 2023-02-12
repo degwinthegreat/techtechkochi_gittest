@@ -108,3 +108,22 @@ git show
 ```
 git show <commit-hash>
 ```
+
+## git reset
+
+### 直前のコミットを削除する
+
+```
+touch dame_commit.txt
+git add dame_commit.txt
+git commit -m 'ほんとはコミットしちゃダメなやつ'
+git reset --hard HEAD^
+git log
+```
+
+### 特定のコミットまで戻す
+
+```
+git reset --hard <commit-hash>
+git log
+```
