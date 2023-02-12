@@ -184,3 +184,17 @@ git checkout -b first_branch
 ```
 git switch main
 ```
+
+## git merge
+
+### ブランチ同士を結合する
+
+```
+git switch -c branch
+touch merge.txt
+echo 'マージしてほしい' > merge.txt
+git add -A
+git commit -m 'マージしてほしいコミット'
+git switch main
+git merge branch
+```
