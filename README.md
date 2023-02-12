@@ -203,6 +203,9 @@ git log
 ### 同じ行を変更していた場合
 
 ```
+vi merge.txt
+git add -A
+git commit -m 'マージできたよ'
 git switch -c conflict
 vi merge.txt
 git add -A
