@@ -27,3 +27,19 @@ ls -la
 touch sample.txt
 git add sample.txt
 ```
+
+## git diff
+
+### 差分を確認
+
+```
+echo '初めてのdiff' > sample.txt
+git diff
+```
+
+### stagingエリアに上げた差分を確認
+
+```
+git add sample.txt
+git diff --cached
+```
