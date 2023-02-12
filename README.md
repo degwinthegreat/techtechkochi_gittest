@@ -20,3 +20,10 @@ git init
 ```
 ls -la
 ```
+
+## git add
+
+```
+touch sample.txt
+git add sample.txt
+```
