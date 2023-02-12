@@ -213,4 +213,9 @@ git commit -m 'コンフリクトするコミット'
 git switch main
 git merge conflict
 git status
+vi merge.txt
+git add -A
+git merge --continue
+git status
+git log
 ```
