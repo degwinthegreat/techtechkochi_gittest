@@ -43,3 +43,17 @@ git diff
 git add sample.txt
 git diff --cached
 ```
+
+## git status
+
+### ワーキングツリーの状態を表示する
+
+```
+touch sample2.txt
+git status
+```
+
+```
+git add sample2.txt
+git status
+```
