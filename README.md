@@ -86,3 +86,10 @@ git add commit.txt
 git status
 git commit -m '初めてのコミット'
 ```
+
+## git log
+
+### コミットを振り返る
+```
+git log
+```
