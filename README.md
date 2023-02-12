@@ -57,3 +57,21 @@ git status
 git add sample2.txt
 git status
 ```
+
+## git restore
+
+### stagingエリアに上げた変更を取り消す
+
+```
+git restore --staged sample2.txt
+git status
+```
+
+下記でもできる
+```
+git rm --cached sample2.txt
+```
+
+```
+git reset sample2.txt
+```
