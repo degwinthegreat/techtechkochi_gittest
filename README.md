@@ -127,3 +127,12 @@ git log
 git reset --hard <commit-hash>
 git log
 ```
+
+## git remote
+
+### リモートリポジトリとローカルリポジトリを紐付ける
+
+```
+git remote add origin https://github.com/<username>/<repository_name>.git
+git remote -v
+```
